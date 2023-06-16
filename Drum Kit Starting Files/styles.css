@@ -1,0 +1,192 @@
+@media only screen and (orientation:portrait) {
+  #turn { display:block; }
+  #container { display:none; }
+  footer{
+    position: absolute;
+    bottom: 20px;
+    left: 40%;
+  }
+}
+
+
+@media only screen and (orientation:landscape) {
+  #turn { display:none; }
+  #container { display:block; }
+}
+
+body {
+  text-align: center;
+  background-size: cover;
+  background-image: url(/images/1pexels-dmitry-demidov-3784221.jpg);
+}
+
+h1 {
+  font-size: 3rem;
+  color: #dbedf3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #da0463;
+  margin: 5% 5% -7%;
+}
+#turn{
+  font-size: 3rem;
+  color: #dbedf3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #da0463;
+  margin: 5% 5% -7%;
+}
+footer {
+  color: #dbedf3;
+  font-family: sans-serif;
+}
+
+.w {
+  background-image: url(/images/tom1.png);
+}
+
+.e {
+  background-image: url(/images/tom2.png);
+}
+
+.r {
+  background-image: url(/images/tom3.png);
+}
+
+.t {
+  background-image: url(/images/tom4.png);
+}
+
+.y {
+  background-image: url(/images/snare.png);
+}
+
+.u {
+  background-image: url(/images/kick.png);
+}
+
+.i {
+  background-image: url(/images/crash.png);
+}
+
+.set {
+  margin: 10% auto;
+
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.dru{
+  outline: none;
+  border: 3px solid #a5742c;
+  font-size: 5rem;
+  font-family: "Arvo", cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #da0463;
+  text-shadow: 3px 0 #dbedf3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 11%;
+  height: 9%;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+.pia{
+  outline: none;
+  border: 2px solid #a5742c;
+  font-size: 2rem;
+  font-family: "Arvo", cursive;
+  line-height: 3;
+  font-weight: 100;
+  color: #da0463;
+  text-shadow: 3px 0 #dbedf3;
+  border-radius: 15px;
+  display: block;
+  width: 50px;
+  height: 250px;
+  text-align: center;
+  margin: 0px;
+  background-color: white;
+  padding-top: 100px;
+}
+.black{
+  outline: none;
+  border: 2px solid #a5742c;
+  font-size: 2rem;
+  font-family: "Arvo", cursive;
+  line-height: 3;
+  font-weight: 100;
+  color: #da0463;
+  text-shadow: 3px 0 #dbedf3;
+  border-radius: 15px;
+  width: 50px;
+  height: 150px;
+  overflow: hidden;
+  margin: 0px;
+  background-color: rgb(34, 32, 32);
+}
+@media(max-width:915px){
+  .dru{
+    width: 70px;
+    height: 70px;
+    font-size: 2.5rem;
+  }
+  .piano{
+    left: -50px;
+  }
+  h1{
+    font-size: 2rem;
+    margin: -10px 10px -80px;
+  }
+}
+@media(min-width:1000px){
+  .piano{
+     
+    margin-left: 15%;
+  }
+}
+@media(max-width:750px){
+  .piano{
+    margin-left: -20%;
+  }
+  h1{
+    margin:10px 10px -40px;
+  }
+}
+
+black_piano{
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  
+}
+.piano1{
+  position: relative;
+  left: 285px;
+  height: 150px;
+  
+}
+.piano2{
+  position: relative;
+  left: 330px;
+  height: 150px;
+}
+.piano{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  
+  
+}
